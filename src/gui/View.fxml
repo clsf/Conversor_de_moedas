@@ -9,15 +9,15 @@
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
    <children>
-      <Label layoutX="71.0" layoutY="41.0" prefHeight="26.0" prefWidth="258.0" text="Conversor de moedas " textAlignment="JUSTIFY" AnchorPane.bottomAnchor="233.0" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="71.0" AnchorPane.topAnchor="41.0">
+      <Label layoutX="71.0" layoutY="41.0" prefHeight="26.0" prefWidth="258.0" text="Conversor de moedas " textAlignment="CENTER" AnchorPane.topAnchor="41.0">
          <font>
             <Font name="Arial Bold Italic" size="22.0" />
          </font>
       </Label>
-      <ComboBox fx:id="comboBoxMoeda1" layoutX="14.0" layoutY="101.0" onAction="#oncomboBoxMoedaAction" prefHeight="9.0" prefWidth="140.0" promptText="Escolha a moeda" AnchorPane.bottomAnchor="174.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="246.0" AnchorPane.topAnchor="101.0" />
-      <TextField fx:id="valorText" layoutX="208.0" layoutY="101.0" />
-      <Label fx:id="labelResultado" layoutX="214.0" layoutY="156.0" prefHeight="26.0" prefWidth="149.0" textAlignment="CENTER" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="156.0" />
-      <Button fx:id="btCalcular" layoutX="163.0" layoutY="213.0" mnemonicParsing="false" onAction="#onBtCalcularAction" text="Calcular" AnchorPane.bottomAnchor="62.0" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="179.0" AnchorPane.topAnchor="213.0" />
-      <ComboBox fx:id="comboBoxMoeda2" layoutX="14.0" layoutY="156.0" onAction="#oncomboBoxMoedaAction" prefHeight="9.0" prefWidth="140.0" promptText="Escolha a moeda" AnchorPane.bottomAnchor="119.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="246.0" AnchorPane.topAnchor="156.0" />
+      <ComboBox fx:id="comboBoxMoeda1" layoutX="14.0" layoutY="101.0" onAction="#oncomboBoxMoedaAction" prefHeight="9.0" prefWidth="140.0" promptText="Escolha a moeda" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="101.0" />
+      <TextField fx:id="valorText" layoutX="208.0" layoutY="101.0" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="43.0" />
+      <Label fx:id="labelResultado" layoutX="214.0" layoutY="156.0" prefHeight="26.0" prefWidth="149.0" textAlignment="CENTER" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="37.0" />
+      <Button fx:id="btCalcular" layoutX="163.0" layoutY="213.0" mnemonicParsing="false" onAction="#onBtCalcularAction" text="Calcular" AnchorPane.topAnchor="213.0" />
+      <ComboBox fx:id="comboBoxMoeda2" layoutX="14.0" layoutY="156.0" onAction="#oncomboBoxMoedaAction" prefHeight="9.0" prefWidth="140.0" promptText="Escolha a moeda" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="156.0" />
    </children>
 </AnchorPane>
