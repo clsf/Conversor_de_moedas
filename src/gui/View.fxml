@@ -15,7 +15,7 @@
          </font>
       </Label>
       <ComboBox fx:id="comboBoxMoeda1" layoutX="14.0" layoutY="101.0" onAction="#oncomboBoxMoedaAction" prefHeight="9.0" prefWidth="140.0" promptText="Escolha a moeda" AnchorPane.bottomAnchor="174.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="246.0" AnchorPane.topAnchor="101.0" />
-      <TextField fx:id="valorText" layoutX="208.0" layoutY="101.0" AnchorPane.bottomAnchor="174.0" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="101.0" />
+      <TextField fx:id="valorText" layoutX="208.0" layoutY="101.0" />
       <Label fx:id="labelResultado" layoutX="214.0" layoutY="156.0" prefHeight="26.0" prefWidth="149.0" textAlignment="CENTER" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="156.0" />
       <Button fx:id="btCalcular" layoutX="163.0" layoutY="213.0" mnemonicParsing="false" onAction="#onBtCalcularAction" text="Calcular" AnchorPane.bottomAnchor="62.0" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="179.0" AnchorPane.topAnchor="213.0" />
       <ComboBox fx:id="comboBoxMoeda2" layoutX="14.0" layoutY="156.0" onAction="#oncomboBoxMoedaAction" prefHeight="9.0" prefWidth="140.0" promptText="Escolha a moeda" AnchorPane.bottomAnchor="119.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="246.0" AnchorPane.topAnchor="156.0" />

@@ -53,8 +53,10 @@ public class ViewController implements Initializable{
     void onBtCalcularAction(ActionEvent event) {
     	Moeda moeda1 = comboBoxMoeda1.getValue();
     	Moeda moeda2 = comboBoxMoeda2.getValue();
-    	
-    	Double valor = Double.parseDouble(valorText.getText());
+    	Double valor=0.0;
+    	if(valorText.getText()!="") {
+    		valor = Double.parseDouble(valorText.getText());
+    	}
     	Double resultado = Conversor.converter(moeda1, moeda2, valor);
     	labelResultado.setText(String.format("%.2f", resultado));
     }
