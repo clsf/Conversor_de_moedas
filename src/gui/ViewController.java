@@ -58,7 +58,8 @@ public class ViewController implements Initializable{
     		valor = Double.parseDouble(valorText.getText());
     	}
     	Double resultado = Conversor.converter(moeda1, moeda2, valor);
-    	labelResultado.setText(String.format("%.2f", resultado));
+    	labelResultado.setText(String.format("%.2f %s equivalem a %.2f %s",
+    			valor, moeda1, resultado, moeda2));
     }
     
     @Override

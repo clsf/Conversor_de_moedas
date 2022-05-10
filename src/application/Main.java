@@ -16,6 +16,7 @@ public class Main extends Application {
 			Parent parent = FXMLLoader.load(getClass().getResource("/gui/View.fxml"));
 			Scene scene = new Scene(parent);
 			stage.setScene(scene);
+			stage.setTitle("Conversor de moedas");
 			stage.show();
 		} catch (IOException e) {
 			e.printStackTrace();
